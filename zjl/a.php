@@ -11,6 +11,6 @@
    $lua->call($resouce_lua_anonymous_function, array() /*args);
    $lua->call(array("table", "method"), array(...., "push_self" => [true | false]) /*args*/);
  
-   $lua->{$lua_function}(array()/*args*/);
+   // $lua->{$lua_function}(array()/*args*/);
 ?>
  
